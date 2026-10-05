@@ -1,0 +1,30 @@
+@font-face{font-family:Preeti;src:local('Preeti'),local('Preeti Normal'),url('assets/Preeti.ttf') format('truetype')}
+*{box-sizing:border-box}body{margin:0;font-family:"Segoe UI",Mangal,"Noto Sans Devanagari",Arial,sans-serif;background:#faf6ef;color:#2a2230}
+header{background:linear-gradient(90deg,#7d1527,#a01c33);color:#fff;display:flex;align-items:center;gap:24px;padding:0 22px;flex-wrap:wrap;border-bottom:4px solid #d9a93b}
+.logo{font-size:22px;font-weight:800;padding:14px 0}.logo span{font-weight:400;color:#f2d68a}
+nav{display:flex;gap:2px;flex-wrap:wrap}nav a{color:#fff;text-decoration:none;padding:16px 13px;font-size:14px}nav a:hover,nav a.on{background:#ffffff26;border-bottom:3px solid #f2d68a}
+main{max-width:1100px;margin:0 auto;padding:22px}h1{color:#7d1527;margin-top:0}
+table{width:100%;border-collapse:collapse;background:#fff;margin:14px 0;border-radius:8px;overflow:hidden;box-shadow:0 1px 4px #0001}
+th,td{padding:9px 11px;border-bottom:1px solid #eee3d3;text-align:left;font-size:14px}th{background:#f3e7d0;color:#5a1020}
+.f{background:#fff;padding:16px;border-radius:10px;display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px;margin-bottom:12px;box-shadow:0 1px 4px #0001}
+.stat{background:#fff;border-left:5px solid #d9a93b;padding:12px 16px;border-radius:8px}.stat h2{margin:4px 0 0;color:#7d1527}
+label{display:flex;flex-direction:column;font-size:13px;gap:4px}input,select,textarea{padding:8px;border:1px solid #cdbfa6;border-radius:6px;font:inherit}
+.wide{grid-column:1/-1}button,.btn{background:#a01c33;color:#fff;border:0;padding:8px 15px;border-radius:6px;cursor:pointer;font-size:14px;text-decoration:none;display:inline-block}
+.g{background:#6d6470}.bar{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px;align-items:center}.pv{max-height:60px;border:1px solid #ccc;margin-top:4px}
+.login{max-width:350px;margin:10vh auto;background:#fff;padding:26px;border-radius:12px;display:flex;flex-direction:column;gap:12px;box-shadow:0 4px 18px #0002;border-top:5px solid #d9a93b}
+.note{background:#fff3cf;padding:10px;border-radius:6px;font-size:13px}.err{color:#b00020}
+.tag{padding:2px 8px;border-radius:10px;font-size:12px;background:#eee3d3}.final{background:#d3f0d8}.cancelled{background:#f6d4d4}
+.a4{background:#fff;width:210mm;min-height:297mm;margin:auto;padding:12mm 18mm 28mm;box-shadow:0 0 8px #0003;position:relative;overflow:hidden;font-size:15px;line-height:1.6;color:#000}
+.a4>*{position:relative;z-index:1}.a4>.wm{position:absolute;inset:0;z-index:0;background-repeat:no-repeat;background-position:center;background-size:60%}
+.wmt{position:absolute!important;top:45%;left:0;right:0;text-align:center;font-size:80px;font-weight:700;opacity:.06;transform:rotate(-30deg);z-index:0!important}
+.top{display:flex;justify-content:space-between;font-size:12px;font-weight:600}.brand{display:flex;align-items:center;gap:14px;margin-top:4px}.brand img{height:70px;max-width:110px;object-fit:contain}
+.h1{font-size:30px;font-weight:800;color:#a01020;line-height:1.1}.h2{font-size:19px;font-weight:700}.h3{font-size:11px;font-weight:600}
+.rule{border-top:3px solid #222;border-bottom:1px solid #222;height:6px;margin:6px 0}.title{text-align:center;font-weight:700;font-size:17px;text-decoration:underline;margin-bottom:10px}
+.row{display:flex;justify-content:space-between}.tb{border-collapse:collapse;width:100%;margin:6px 0;box-shadow:none;border-radius:0}.tb td,.tb th{border:1px solid #222;background:#fff;color:#000;padding:4px 8px;text-align:center;font-size:14px}
+.ft{position:absolute!important;left:18mm;right:18mm;bottom:10mm;font-size:12px;font-weight:700;padding:4px 0;line-height:1.3}
+@media(max-width:700px){.a4{width:100%}}
+@media print{.noprint{display:none!important}body{background:#fff}main{padding:0;max-width:none}.a4{box-shadow:none;margin:0;width:auto;min-height:100vh}@page{size:A4;margin:0}*{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
+.bn{width:100%;display:block}.pvwrap{overflow:hidden;border:1px solid #ddd;margin:auto;background:#eee}.pvwrap .a4{margin:0;box-shadow:none}
+.hint{font-size:12px;color:#7a6f80}
+.dtop{position:absolute!important;top:0;left:0;right:0;height:7px}.dl{margin:4px 0 8px}.dl i{display:block;height:5px}.dl i+i{height:2px;margin-top:2px}
+.dm{height:5px;border-radius:3px;margin:5px 0 9px;box-shadow:0 1px 2px #0003}.preeti input,.preeti textarea{font-family:Preeti,Mangal,sans-serif;font-size:17px}
